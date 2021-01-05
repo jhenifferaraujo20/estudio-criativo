@@ -109,8 +109,49 @@ h1{
         opacity: 0;
     }
 
-    100%{
-        transform: translateY(-80vh);
+    50%{
         opacity: 1;
     }
+
+    70%{
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bolhas img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+}
+
+.bolhas img:nth-child(2){
+    animation-delay: 1s;
+}
+
+.bolhas img:nth-child(3){
+    animation-delay: 3s;
+    width: 25px;
+}
+
+.bolhas img:nth-child(4){
+    animation-delay: 4.5s;
+}
+
+.bolhas img:nth-child(5){
+    animation-delay: 3s;
+    width: 20px;
+}
+
+.bolhas img:nth-child(6){
+    animation-delay: 6s;
+    width: 35px;
+}
+
+.bolhas img:nth-child(7){
+    animation-delay: 7s;
+    width: 25px;
 }
